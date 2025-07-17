@@ -23,8 +23,8 @@ It works plug-and-play with clients that already speak OpenAI like SillyTavern, 
 ### With npm
 
 ```bash
-git clone https://github.com/DouveAlexandre/gemini-openai-proxy
-cd gemini-openai-proxy
+git clone https://github.com/DouveAlexandre/GeminiCLI-Proxy2OpenAIAPI
+cd GeminiCLI-Proxy2OpenAIAPI
 npm i
 npm start # starts the server (runs on port 11434 by default)
 ```
@@ -34,8 +34,8 @@ npm start # starts the server (runs on port 11434 by default)
 Alternatively, you can use the provided Dockerfile to build a Docker image.
 
 ```sh
-docker build --tag "gemini-openai-proxy" .
-docker run -p 11434:80 -e GEMINI_API_KEY=your_key_here gemini-openai-proxy
+docker build --tag "GeminiCLI-Proxy2OpenAIAPI" .
+docker run -p 11434:80 -e GEMINI_API_KEY=your_key_here GeminiCLI-Proxy2OpenAIAPI
 ```
 
 ---
@@ -112,8 +112,8 @@ MODEL=
 
 1. Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/DouveAlexandre/gemini-openai-proxy
-cd gemini-openai-proxy
+git clone https://github.com/DouveAlexandre/GeminiCLI-Proxy2OpenAIAPI
+cd GeminiCLI-Proxy2OpenAIAPI
 npm install
 ```
 
