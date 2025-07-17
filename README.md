@@ -230,26 +230,26 @@ curl -X POST http://localhost:11434/v1/chat/completions \
 
 ---
 
-## Solução de Problemas
+## Troubleshooting
 
-### Erro de Autenticação OAuth
-- Verifique se o caminho em `GOOGLE_APPLICATION_CREDENTIALS` está correto
-- Execute `gemini auth` no terminal para reautenticar
+### OAuth Authentication Error
+- Check if the path in `GOOGLE_APPLICATION_CREDENTIALS` is correct
+- Run `gemini auth` in the terminal to reauthenticate
 
-### Erro de API Key
-- Verifique se a chave em `GEMINI_API_KEY` é válida
-- Confirme se `AUTH_TYPE=gemini-api-key`
+### API Key Error
+- Check if the key in `GEMINI_API_KEY` is valid
+- Confirm that `AUTH_TYPE=gemini-api-key`
 
-### Servidor não inicia
-- Verifique se a porta especificada em `PORT` está disponível
-- Confirme se todas as dependências foram instaladas com `npm install`
+### Server does not start
+- Check if the port specified in `PORT` is available
+- Confirm that all dependencies were installed with `npm install`
 
-### Modelo não encontrado
-- Use `gemini-2.5-pro` ou `gemini-2.5-flash` como nome do modelo
-- Deixe `MODEL` vazio no .env para usar o padrão
+### Model not found
+- Use `gemini-2.5-pro` or `gemini-2.5-flash` as the model name
+- Leave `MODEL` empty in .env to use the default
 
 ---
 
-## Licença
+## License
 
-MIT – livre para uso pessoal e comercial. Fork de https://huggingface.co/engineofperplexity/gemini-openai-proxy
+MIT – free for personal and commercial use. Fork of https://huggingface.co/engineofperplexity/gemini-openai-proxy
