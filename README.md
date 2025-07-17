@@ -1,4 +1,4 @@
-# Gemini ↔︎ OpenAI Proxy
+# Gemini 2 OpenAI Proxy
 
 This program is a wrapper for [Gemini CLI](https://github.com/google-gemini/gemini-cli) that can serve **Google Gemini 2.5 Pro** (or Flash) through an **OpenAI-compatible API**.
 It works plug-and-play with clients that already speak OpenAI like SillyTavern, llama.cpp, LangChain, VS Code's *Cline* extension, etc.
