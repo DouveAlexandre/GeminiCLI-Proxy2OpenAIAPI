@@ -1,0 +1,20 @@
+{
+  "LOG": true,
+  "Providers": [
+    {
+      "name": "openrouter",
+      "api_base_url": "http://localhost:11434/v1/chat/completions",
+      "api_key": "qualquer-valor",
+      "models": [
+        "gemini-2.5-pro",
+        "gemini-2.5-flash"
+      ],
+      "transformer": {
+        "use": ["openrouter"]
+      }
+    }
+  ],
+  "Router": {
+    "default": "openrouter,gemini-2.5-pro"
+  }
+}
